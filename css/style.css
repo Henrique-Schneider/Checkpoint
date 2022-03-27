@@ -288,8 +288,24 @@ iframe {
   color: var(--cor-logo-text);
   font-size: 3rem;
 }
+@media (max-width: 1280px) {
+  .banner p{
+    width: 90%;
+  }
+  iframe{
+    width: 90%;
+  }
 
-@media (max-width: 768px) {
+.video__container{
+ 
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+}
+
+@media (max-width: 1024px) {
   html {
     font-size: 60.2%;
   }
@@ -366,13 +382,12 @@ iframe {
   }
   .container {
     width: 100%;
-    max-width: 1280px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     height: auto;
   }
 
   .card__body {
-    width: 40%;
+    width: 30%;
     height: 53.4rem;
     max-width: 335px;
     max-height: 534px;
@@ -398,7 +413,7 @@ iframe {
   }
   .descricao {
     margin: 10px;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
   .video__container {
@@ -411,8 +426,8 @@ iframe {
 
   iframe {
     display: block;
-    width: 33.5rem;
-    height: 53.4rem;
+    width: 90%;
+    height: 534px;
     border-radius: 31px;
   }
 
@@ -458,6 +473,7 @@ iframe {
       width: 100%;
       font-family:'roboto' ;
       color: yellow;}
+
     /*.header__container img {
       width: 90%;
       margin: 3rem;
