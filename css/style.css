@@ -9,6 +9,8 @@
   --cor-background: rgb(238, 237, 156);
   --cor-logo-text: black;
   --cor-bg-link: white;
+  --cor-titulo: yellow;
+  --cor-link-menu:white;
 }
 html {
   font-size: 62.5%; /* a cada 1 rem sera considerado 10px*/
@@ -32,7 +34,7 @@ h1 {
   font-size: 7.5rem;
   width: 100%;
   font-family: "roboto";
-  color: yellow;
+  color: var(--cor-titulo);
   margin-left: 12rem;
 }
 .header__container {
@@ -62,7 +64,7 @@ nav ul {
 
 nav ul li a {
   text-decoration: none;
-  color: white;
+  color: var(--cor-link-menu);
   font-family: "Lato", sans-serif;
   font-size: 2.4rem;
   transition: all 250ms linear 0;
@@ -152,7 +154,7 @@ nav ul li a {
   align-items: center;
   width: 24.5%;
   height: 53.4rem;
-  background-color: #f3f3f3;
+  background-color: var(--cor-card);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 31px;
 }
@@ -322,7 +324,7 @@ iframe {
     width: 30%;
     
     font-family: "roboto";
-    color: yellow;
+   
   }
   /*.header__container img {
     width: 40%;
@@ -337,7 +339,7 @@ iframe {
 
   nav ul li a {
     text-decoration: none;
-    color: white;
+    color: var(--cor-link-menu);
     font-family: "Lato", sans-serif;
     font-size: 2.4rem;
     transition: all 250ms linear 0;
@@ -467,7 +469,7 @@ iframe {
       font-size: 4.5rem;
       width: 100%;
       font-family: "roboto";
-      color: yellow;
+      
     }
 
     /*.header__container img {
@@ -483,9 +485,11 @@ iframe {
       flex-direction: column;
       gap: 3rem;
     }
+    
 
     nav ul li a {
       font-size: 2rem;
+      
     }
 
     .btn-grad {
